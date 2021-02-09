@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  softplanapi1:
+    image: ${DOCKER_REGISTRY-}softplanapi1
+    build:
+      context: .
+      dockerfile: ./SoftplanAPI1/Dockerfile
+    ports:
+        - "3000:80"
+    networks: 
+        - my-network
+  softplanapi2:
+    image: ${DOCKER_REGISTRY-}softplanapi2
+    build:
+      context: .
+      dockerfile: ./SoftplanAPI2/Dockerfile
+    ports:
+        - "3001:80"
+    networks: 
+        - my-network
+networks: 
+    my-network:
+        external: true
+
+  
+

@@ -1,0 +1,35 @@
+networks:
+  my-network:
+    external: true
+    name: my-network
+services:
+  softplanapi1:
+    build:
+      context: C:\Projetos\Teste\SoftplanAPI
+      dockerfile: ./SoftplanAPI1/Dockerfile
+    image: softplanapi1
+    networks:
+      my-network: {}
+    ports:
+    - published: 3000
+      target: 80
+    - published: 3002
+      target: 443
+  softplanapi2:
+    build:
+      context: C:\Projetos\Teste\SoftplanAPI
+      dockerfile: ./SoftplanAPI2/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: softplanapi2
+    networks:
+      my-network: {}
+    ports:
+    - target: 80
+    - 127.0.0.1:3001:443/tcp
+    - target: 443
+    volumes:
+    - C:\Users\danielnovaes\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\danielnovaes\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

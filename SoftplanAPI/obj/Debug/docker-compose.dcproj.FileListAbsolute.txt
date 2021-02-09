@@ -1,0 +1,16 @@
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\appsettings.Development.json
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\appsettings.json
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI1.exe
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI2.exe
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI1.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI2.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\Microsoft.OpenApi.dll
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI1.pdb
+C:\Projetos\Teste\SoftplanAPI\bin\Debug\SoftplanAPI2.pdb
+C:\Projetos\Teste\SoftplanAPI\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Projetos\Teste\SoftplanAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Projetos\Teste\SoftplanAPI\obj\Debug\docker-compose.dcproj.CopyComplete
